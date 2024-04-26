@@ -222,6 +222,8 @@ footer
   align-items: center;
   background-color:#901212;
   color: antiquewhite;
+  padding-bottom: 28px;
+  padding-top: 28px;
 }
 .playerdetails
 {
@@ -242,8 +244,15 @@ footer{
   height: 23vw;
   background-image:linear-gradient(70.8deg, rgb(3, 10, 74) 92.4%, rgb(247, 12, 39) 24%,);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+.ideal{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
 }
 .refss > a{
   color: white;
@@ -477,3 +486,9 @@ footer{
   .refss{
     color: #e9b935;
   }
+
+
+.cpy{
+  color: #fff;
+  font-family: monospace;
+}
